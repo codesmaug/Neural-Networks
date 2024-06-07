@@ -1,0 +1,33 @@
+Neural Network Project Notes
+Project Overview
+This project involves creating a neural network from scratch using NumPy. The neural network is designed for classification tasks and includes functionality for forward propagation, backward propagation, training, and prediction.
+
+Key Components
+Neural Network Class (neuro.py)
+Running tests: (test.py, test2.py)
+Image generators: (image.py, and image2.py)
+
+Initialization: Defines the structure of the network with specified layer sizes.
+Activation Functions: Implements ReLU and Sigmoid activation functions along with their derivatives.
+Forward Propagation: Computes the outputs of each layer given the input data.
+Backward Propagation: Calculates gradients to update weights and biases.
+Training: Uses forward and backward propagation to train the network over a specified number of epochs.
+Prediction: Outputs predictions for given input data based on the trained model.
+Visualization (image.py)
+
+Neural Network Visualization: Draws the architecture of the neural network using Matplotlib.
+Node and Edge Layout: Positions nodes and edges to represent the neural network layers and connections.
+Customization: Limits the number of nodes displayed per layer to improve readability for large networks and adjusts spacing and transparency to reduce clutter.
+Challenges and Solutions
+Indexing Errors: Adjusted backward propagation loop to handle indexing correctly.
+Visualization Clutter: Limited the number of nodes per layer and adjusted spacing to make the neural network visualization clearer and more informative.
+Example Usage
+test.py: Script to test the neural network with a simple XOR problem. Demonstrates network training and prediction.
+image.py: Script to visualize the neural network architecture.
+Example Output
+Training Output: Displays cost reduction over epochs, indicating the training process.
+Visualization Output: Shows the network architecture, highlighting the structure of input, hidden, and output layers.
+Next Steps
+Further Testing: Explore the network's performance with different datasets and configurations.
+Optimization: Implement additional features such as different activation functions, regularization techniques, and more advanced optimization algorithms.
+Improved Visualization: Enhance visualization to support larger networks and provide more detailed insights.
